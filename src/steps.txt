@@ -1,0 +1,21 @@
+Please tack new clone from gitlab (https://gitlab.telution.de/telution-projects/gall-get/GallGET3.git) in fresh place. 
+
+Step : 2  -  git checkout iflair
+
+npm install
+
+composer install
+
+copy (.env.example to .env)
+
+php artisan key:generate
+
+php artisan migrate (import given SQL for other required table data).
+
+php artisan db:seed
+
+php artisan passport:install
+
+npm run dev
+
+php artisan server  (for example : http://127.0.0.1:8000) click on that link

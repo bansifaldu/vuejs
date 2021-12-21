@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* media-query
+------------------------------------------------*/
+@media handheld, only screen and (max-width: 1250px) {}
+
+@media handheld, only screen and (max-width: 1140px) {}
+
+@media handheld, only screen and (max-width: 1023px) {}
+
+@media handheld, only screen and (max-width: 991px) {}
+
+@media handheld, only screen and (max-width: 767px) {}
+
+@media handheld, only screen and (max-width: 639px) {}
+
+@media handheld, only screen and (max-width: 550px) {}
+
+@media handheld, only screen and (max-width: 479px) {}
