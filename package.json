@@ -40,5 +40,8 @@
   },
   "rules": {
     "no-unused-vars": "off"
+  },
+  "dependencies": {
+    "@nuxt/babel-preset-app-edge": "*"
   }
 }
