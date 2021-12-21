@@ -7,7 +7,7 @@
 			<div class="layout-menu-container" @click="onMenuClick" v-show="isMenuVisible()">
 				<div class="layout-menu-logo" @click="$router.push({path: '/dashboard'})">
 					<button class="p-link">
-						<img id="layout-menu-logo" src="assets/layout/images/imgpsh_fullsize_anim.png" alt="babylon-layout"/>
+						 
 					</button>
 				</div>
 				<div class="layout-menu-wrapper">
