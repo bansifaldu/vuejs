@@ -6,9 +6,6 @@
 		<transition name="layout-menu-container">
 			<div class="layout-menu-container" @click="onMenuClick" v-show="isMenuVisible()">
 				<div class="layout-menu-logo" @click="$router.push({path: '/dashboard'})">
-					<button class="p-link">
-						 
-					</button>
 				</div>
 				<div class="layout-menu-wrapper">
 					<div class="menu-scroll-content">
