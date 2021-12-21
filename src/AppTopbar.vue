@@ -1,5 +1,8 @@
 <template>
 	<div class="layout-topbar clearfix">
+		<button class="layout-topbar-logo p-link" @click="goDashboard">
+			<img id="layout-topbar-logo" alt="babylon-layout" src="assets/layout/images/logo-white.png"/>
+		</button>
 
 		<button class="layout-menu-button p-link" @click="onMenuButtonClick">
 			<i class="pi pi-bars"></i>
